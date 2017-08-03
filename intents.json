@@ -1,0 +1,36 @@
+{
+  "intents": [
+    {
+      "intent": "FoodIntent",
+      "slots": [
+        {
+          "name": "first",
+          "type": "food_type"
+        },
+        {
+          "name": "second",
+          "type": "food_type"
+        },
+        {
+          "name": "third",
+          "type": "food_type"
+        }
+      ]
+    },
+    {"intent": "TimeIntent",
+     "slots":[
+        {"name":"time",
+         "type":"time_type"}]},
+
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
+

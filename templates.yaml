@@ -1,0 +1,20 @@
+
+welcome: Welcome to Kitchen Helper. Tell me three ingredients you have. Ready?
+
+round: Can you repeat the numbers {{ numbers|join(", ") }} backwards?
+
+win: Good job!
+
+lose: Sorry, that's the wrong answer.
+
+#welcome: Welcome to kitchen helper. Are you eating now or meal planning?
+
+listing: I see, you have {{ home.join(, ) }}, let me think. Do you want to eat now?
+
+#win: Good job!
+
+#lose: Sorry, that's the wrong answer.
+
+help: Let me know what ingrediants you have by saying I have x, y, and z.
+
+exit: okay, I hope you are not hangry anymore. See you soon. 

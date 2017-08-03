@@ -1,0 +1,45 @@
+FoodIntent {first} {second} {third}
+
+FoodIntent {first} {second} and {third}
+
+FoodIntent I have {first} {second} and {third}
+
+FoodIntent I have {first} {second} and {third} at home
+
+YesIntent yes
+
+YesIntent sure
+
+NoIntent No
+
+NoIntent Nope
+
+NoIntent Nah
+
+AnswerIntent {first} {second} {third}
+
+
+
+recipes = {
+    "fast":{
+    "name":"Tomato and Avocado Salad",
+    "prep_time_n":10,
+    "prep_time":"Ten Minutes",
+    "servings":"four servings",
+    "description":"This easy salad, featuring a colorful array of summer tomatoes and creamy avocado, makes a good side dish with grilled steak or chicken, or fried catfish."
+    },
+    "recipe2":{
+    "name":"Cremay Avocado Pasta Salad",
+    "prep_time":"twenty Minutes",
+    "prep_time_n":20,
+    "servings": "six servings",
+    "description": "The secret ingredient in this creamy avocado pasta salad will shock you! This avocado pasta salad is easy, creamy, vibrant, fresh and so satisfying!"
+    },
+    "recipe3":{
+    "name":"Cucumber Tomato Avocado Salad",
+    "prep_time":"fifteen Minutes",
+    "prep_time_n":15,
+    "servings":"four servings",
+    "description":"Our classic cucumber and tomato salad just got better with the addition of avocado, a lemon dressing and fresh cilantro."
+    }
+}  
